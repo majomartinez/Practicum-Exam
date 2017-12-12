@@ -1,0 +1,71 @@
+/* header */
+
+header {
+  font-family: $primary-font;
+}
+
+.header-menu {
+  margin: 30px 10px;
+  line-height: 2;
+  text-align: center;
+
+  &--text {
+    font-size: 18px;
+  }
+
+  &--color {
+    color: $primary-color;
+    fonto-size: 16px;
+  }
+
+  nav {
+    float: right;
+    font-size: 10px;
+    text-transform: uppercase;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px 0 0;
+      cursor: pointer;
+
+      &:hover {
+        color: $primary-color;
+      }
+      &.active {
+        color: $primary-color;
+      }
+      i {
+        color: $primary-color;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 6px 12px;
+      color: $products-border-color;
+      text-decoration: none;
+      text-decoration: none;
+    }
+  }
+}
+
+@include desktop{
+  .header-menu {
+    margin: 30px 50px;
+    text-align: left;
+
+    nav {
+      font-size: 18px;
+
+      li {
+        margin: 0 10px 0 10px;
+      }
+    }
+  }
+}

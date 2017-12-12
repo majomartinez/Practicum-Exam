@@ -1,0 +1,17 @@
+/*  ***************************
+/*  Media queries
+/*  ---------------------------
+*******************************/
+
+
+$media-desktop: "(min-width: 992px)";
+@mixin desktop { @media #{$media-desktop} { @content; } }
+
+$media-medium-desktop: "(min-width: 1024px)";
+@mixin medium-desktop { @media #{$media-medium-desktop} { @content; } }
+
+$media-large-desktop: "(min-width: 1281px)";
+@mixin large-desktop { @media #{$media-large-desktop} { @content; } }
+
+$media-tablet: "(min-width: 768px) and (max-width: 991px)";
+@mixin tablet { @media #{$media-tablet} { @content; } }

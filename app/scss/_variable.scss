@@ -1,0 +1,62 @@
+/*
+Variables
+collection of variables used in all sass files
+this file is used for theming
+----------------------------------------------------------------------------- */
+
+/* type
+--------------------------------- */
+$primary-font: 'Nunito', sans-serif;
+$secondary-font: "";
+$tertiary-font: "";
+$primary-icon: "Nucleo Mini";
+$secondary-icon: "Nucleo Glyph";
+$tertiary-icon: "Nucleo Outline";
+$base-font-size: 14px;
+$font-color: #6e6e6e;
+$font-color-dark: darken($font-color, 15%);
+$font-color-light: lighten($font-color, 15%);
+
+
+/* colors
+--------------------------------- */
+$primary-color: #f98304;
+$secondary-color: #de960b;
+$tertiary-color: #1B2021;
+$primary-background: #F8F8F8;
+$secondary-background: #fff ;
+$tertiary-background: #fff;
+$footer-background: #353531;
+$link-color: #f98304;
+$red: #DA3E52;
+$blue: #263e8e;
+$green: #1A8700;
+$orange: #f98304;
+$gray: #e2dfdf;
+$white: #FFFFFF;
+$black: #424242;
+$yellow: #EFFE0D;
+
+
+/* interface
+--------------------------------- */
+$border-radius: 0;
+$products-border-color: #848484;
+$table-border-color: darken($primary-background, 20%);
+$button-height: 46px;
+$button-background: #1A8700;
+$button-color: #FFFFFF;
+$button-disabled-background: darken($primary-background, 25%);
+$button-disabled-color: #FFFFFF;
+$button-padding: 15px 20px;
+$input-height: 44px;
+$input-background: #FFFFFF;
+$input-color: #545454;
+$input-border: solid 1px darken($input-background, 20%);
+$input-padding: 10px 15px;
+$input-disabled-background: darken($primary-background, 5%);
+$input-disabled-color: #545454;
+$input-disabled-border: darken($primary-background, 20%);
+$textarea-height: 200px;
+$tab-border-color: darken($primary-background, 20%);
+
